@@ -1,1 +1,1 @@
-from src.postfix_notation.stack_lang import ToyLang
+from postfix_notation.stack_lang import ToyLang
