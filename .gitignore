@@ -1,2 +1,5 @@
 notes/
 __pycache__/
+average/average
+average/main.o
+postfix_notation/.coverage
