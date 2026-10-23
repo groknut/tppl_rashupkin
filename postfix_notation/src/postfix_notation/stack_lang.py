@@ -10,6 +10,7 @@ class ToyLang:
             '*': lambda a, b: a * b,
             '/': lambda a, b: a / b if b else (_ for _ in ()).throw(ZeroDivisionError("division by zero")),
             '~': self._tilda,
+            '!': lambda a, b: a ** b
         }
         for tok in line.split():
             if tok in self._ops and len(self._stack) >= 2:
