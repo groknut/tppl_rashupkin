@@ -18,6 +18,7 @@ def calc(expr: str) -> float:
     ("3 0 4 ~ 2 ~", 47),
     ("0 0 ~", 0),
     ("5 0 ~", 25),
+    ("2 3 !", 8)
 ])
 def test_expressions(expr, expected):
     assert calc(expr) == expected
